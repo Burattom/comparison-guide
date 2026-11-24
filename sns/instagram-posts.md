@@ -1,4 +1,10 @@
-# Instagram 投稿文案（@riria.cosme）
+# Instagram 投稿文案（@ririachannnn）
+
+> 投稿1（おせち早割）は 2026-11-25 に公開済み：https://www.instagram.com/p/DgIfPIvyvdb/
+> 画像：A8公式バナー（`assets/osechi-banner-250-1.jpg`）
+> プロフィールアイコン：`assets/profile-icon.png`（設定済み）
+> A8サイトID 002 のURLは `https://www.instagram.com/ririachannnn/` に更新済み
+> プロフィールのウェブサイト欄はモバイルアプリからのみ編集可能なため、ブログURLはユーザーがモバイルで設定する
 
 ## 投稿前に確認すること
 
