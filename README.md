@@ -1,6 +1,9 @@
 # 年末ごちそうガイド（A8.net アフィリエイトブログ）
 
-おせち・かのに特化した静的サイト。GitHub Pages で公開します。
+おせち・かにに特化した静的サイト。GitHub Pages で公開します。
+
+**公開URL:** https://burattom.github.io/osechi-guide/
+**リポジトリ:** https://github.com/Burattom/osechi-guide
 
 ## 構成
 
