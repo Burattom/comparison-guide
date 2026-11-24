@@ -9,10 +9,14 @@
 
 ```
 .
-├── index.html                 トップ
-├── articles/osechi.html       おせち比較記事（匠本舗）
-├── articles/kani.html         かに比較記事（かに本舗）
-├── about.html                 アフィリエイト開示 / ポリシー
+├── index.html                      トップ
+├── articles/osechi.html            おせち比較記事（匠本舗）
+├── articles/osechi-saitei.html     おせち早割（長尾キーワード）
+├── articles/kani.html              かに比較記事（かに本舗）
+├── articles/kani-ryo.html          かに内容量（長尾キーワード）
+├── about.html                      アフィリエイト開示 / ポリシー
+├── sns/instagram-posts.md          Instagram投稿文案（SNS用リンク）
+├── tracking/report.md              効果測定ログ
 ├── style.css
 └── .github/workflows/deploy.yml
 ```

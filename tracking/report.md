@@ -7,7 +7,18 @@ A8.net メディア管理画面 → レポート → 期間別（日別）／プ
 | 略称 | プログラムID | 記事URL |
 |---|---|---|
 | おせち | s00000009319002 | https://burattom.github.io/osechi-guide/articles/osechi.html |
+| おせち早割 | s00000009319002 | https://burattom.github.io/osechi-guide/articles/osechi-saitei.html |
 | かに | s00000009319001 | https://burattom.github.io/osechi-guide/articles/kani.html |
+| かに内容量 | s00000009319001 | https://burattom.github.io/osechi-guide/articles/kani-ryo.html |
+
+## SNS用リンク（Instagram）
+
+| 案件 | SNS・note用リンク |
+|---|---|
+| おせち | `https://px.a8.net/svt/ejp?a8mat=4BGTLG+1UOLAY+1ZWM+BZO4I&a8sns=instagram` |
+| かに | `https://px.a8.net/svt/ejp?a8mat=4BGTLG+1WGW4A+1ZWM+60H7M&a8sns=instagram` |
+
+SNS投稿文は `sns/instagram-posts.md` を参照。PR表記・公開アカウント必須。
 
 ## 日次記録
 
