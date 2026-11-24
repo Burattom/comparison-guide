@@ -8,8 +8,10 @@ A8.net メディア管理画面 → レポート → 期間別（日別）／プ
 |---|---|---|
 | おせち | s00000009319002 | https://burattom.github.io/osechi-guide/articles/osechi.html |
 | おせち早割 | s00000009319002 | https://burattom.github.io/osechi-guide/articles/osechi-saitei.html |
+| おせち解凍 | s00000009319002 | https://burattom.github.io/osechi-guide/articles/osechi-kaihou.html |
 | かに | s00000009319001 | https://burattom.github.io/osechi-guide/articles/kani.html |
 | かに内容量 | s00000009319001 | https://burattom.github.io/osechi-guide/articles/kani-ryo.html |
+| かに解凍 | s00000009319001 | https://burattom.github.io/osechi-guide/articles/kani-kaihou.html |
 
 ## SNS用リンク（Instagram）
 
