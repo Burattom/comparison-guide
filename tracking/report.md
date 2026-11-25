@@ -26,7 +26,8 @@ SNS投稿文は `sns/instagram-posts.md` を参照。PR表記・公開アカウ�
 
 | 日付 | 投稿 | URL |
 |---|---|---|
-| 2026-11-25 | おせち早割 | https://www.instagram.com/p/DgIfPIvyvdb/ |
+| 2026-11-25 | おせち早割（低解像度版・削除済み） | https://www.instagram.com/p/DgIfPIvyvdb/ |
+| 2026-11-25 | おせち早割（1080x1080再投稿） | https://www.instagram.com/p/DgJVGAVyS2q/ |
 
 公開投稿URLは両プログラムの「広告掲載URL管理」に提出済み。
 
