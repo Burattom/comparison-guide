@@ -63,5 +63,7 @@
   記事はプロフィールリンクから👇
   ```
 - プロフィールリンク：`https://burattom.github.io/comparison-guide/`
-- 投稿：0件（季節投稿はすべて削除）
+- 投稿：教育シリーズを運用中（初回：https://www.instagram.com/p/DgKNVknSUR7/）
 - アイコン：`sns/assets/profile-icon.png`（`scripts/make_profile_icon.py` で生成）
+- 教育投稿画像：`sns/assets/edu-*.png`（`scripts/make_edu_posts.py` で生成）
+- 運用方針：`sns/growth-plan.md`
