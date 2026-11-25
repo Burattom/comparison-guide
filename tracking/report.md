@@ -30,7 +30,13 @@ SNS投稿文は `sns/instagram-posts.md` を参照。PR表記・公開アカウ�
 
 公開投稿URLは両プログラムの「広告掲載URL管理」に提出済み。
 
-@ririachannnn のプロフィール「ウェブサイト」に `https://burattom.github.io/osechi-guide/` を設定済み（2026-11-25 確認）。Instagramが `utm_source=ig` を付与するため、今後GA4導入時に流入元を判別可能。
+@ririachannnn のプロフィール「ウェブサイト」に `https://burattom.github.io/osechi-guide/` を設定済み（2026-11-25 確認）。Instagramが `utm_source=ig` を付与するため、流入元を判別可能。
+
+## GA4
+
+- 測定ID `G-FVZHH3RMRT` を全ページに実装済み（2026-11-25）
+- イベント：page_view / scroll / click（拡張計測）＋ A8リンクの離脱クリック
+- 自分のBraveはトラッキングをブロックする可能性があるため、リアルタイム検証は別ブラウザで行うこと
 
 ## 日次記録
 
