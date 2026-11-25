@@ -23,6 +23,21 @@
 - サイトマップ送信済み（初回取得は未完了のため、Googleが再処理予定）
 - トップ＋6記事のURL検査から「インデックス登録をリクエスト」済み
 - トップの canonical はルートURLに統一
+- 全9記事のURL検査からインデックス登録をリクエスト済み
+
+## Lighthouse 診断結果（2026-11-25）
+
+- Accessibility: 1.00 / Best Practices: 1.00 / SEO: 1.00（失敗項目なし）
+
+## 審査中の案件
+
+下記は提携申請済みで審査中。承認後に広告リンクを取得し、準備済みの記事に反映する。
+
+| 案件 | プログラムID | 報酬 |
+|---|---|---|
+| 保育士人材バンク | s00000001248025 | 初回登録5,000円 |
+| PT・OT・ST WORKER | s00000026401001 | 新規会員登録3,790円 |
+| 街角雨漏り相談所 | s00000024877004 | 新規見積7,000円 |
 
 ## Google Analytics 4
 
@@ -50,6 +65,9 @@ SNS投稿画像は広告主が提供する商品写真（Googleドライブ素�
 ├── articles/kani.html              かに比較記事（かに本舗）
 ├── articles/kani-ryo.html          かに内容量（長尾キーワード）
 ├── articles/kani-kaihou.html       かに解凍（長尾キーワード）
+├── articles/osechi-souba.html      おせち相場（長尾キーワード）
+├── articles/osechi-yoyaku.html     おせち予約（長尾キーワード）
+├── articles/kani-tabekata.html     かに食べ方（長尾キーワード）
 ├── about.html                      アフィリエイト開示 / ポリシー
 ├── sns/instagram-posts.md          Instagram投稿文案（SNS用リンク）
 ├── tracking/report.md              効果測定ログ
