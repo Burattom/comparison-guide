@@ -17,6 +17,13 @@
 
 `scripts/` に一括変換用スクリプトを置いてあります（`improve.py` → `cta_fix.py` → `check.py` の順で実行）。
 
+## Google Search Console
+
+- プロパティ：`https://burattom.github.io/osechi-guide/`（所有権確認済み・HTMLタグ認証）
+- サイトマップ送信済み（初回取得は未完了のため、Googleが再処理予定）
+- トップ＋6記事のURL検査から「インデックス登録をリクエスト」済み
+- トップの canonical はルートURLに統一
+
 ## 構成
 
 ```
