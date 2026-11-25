@@ -4,6 +4,18 @@
 
 **公開URL:** https://burattom.github.io/osechi-guide/
 **リポジトリ:** https://github.com/Burattom/osechi-guide
+**sitemap:** https://burattom.github.io/osechi-guide/sitemap.xml
+
+## SEO / CVR 対策（2026-11-25 実装）
+
+- 全ページに canonical・OGP・Twitter Card を設定
+- 各記事に Article / FAQPage の構造化データ（JSON-LD）を埋め込み
+- `sitemap.xml` / `robots.txt` を設置
+- 各記事に関連記事リンクを追加
+- CTAを「冒頭・中段・末尾」の3箇所に配置し、文言を成果条件に合わせて変更
+- 主要2記事に「目的別の選び方」比較表を追加
+
+`scripts/` に一括変換用スクリプトを置いてあります（`improve.py` → `cta_fix.py` → `check.py` の順で実行）。
 
 ## 構成
 
