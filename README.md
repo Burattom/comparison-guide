@@ -30,6 +30,11 @@
 - 測定ID：`G-FVZHH3RMRT`
 - ウェブストリームID：`16409404040`
 - 全8ページの `<head>` に gtag.js を埋め込み済み（`scripts/add_ga.py` で一括挿入）
+
+SNS投稿画像は広告主が提供する商品写真（Googleドライブ素材）を使用：
+
+- `sns/assets/osechi-real-test.jpg` → `scripts/make_real_osechi.py` → `osechi-post-1080.png`
+- `sns/assets/kani-real-test.jpg` → `scripts/make_real_kani.py` → `kani-post-1080.png`
 - 拡張計測機能（ページビュー／スクロール／離脱クリック）を有効化
 
 ※ 自分のBraveブラウザはトラッキングをブロックする場合があるため、リアルタイム表示に自分の訪問が出ないことがあります。通常のブラウザからの流入は最大48時間で反映されます。

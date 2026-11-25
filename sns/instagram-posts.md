@@ -5,6 +5,10 @@
 > 画像：`assets/osechi-post-1080.png`（広告主のGoogleドライブ素材 `osechi-real-test.jpg` を正方形トリミングし、早割訴求をオーバーレイ）
 > 素材出典：A8案件詳細の「商品画像素材はこちら」→ 匠本舗 おせち2026 フォルダ（利用許諾あり）
 > 生成スクリプト：`scripts/make_real_osechi.py`
+>
+> 投稿3（かに内容量・12/3予約）の画像も広告主提供の本物カニ写真に差し替え済み：
+> `assets/kani-post-1080.png`（元：`kani-real-test.jpg`／かに2026「ボイルずわい姿」）
+> 生成スクリプト：`scripts/make_real_kani.py`
 > プロフィールアイコン：`assets/profile-icon.png`（設定済み）
 > A8サイトID 002 のURLは `https://www.instagram.com/ririachannnn/` に更新済み
 > プロフィールのウェブサイト欄は 2026-11-25 にモバイルアプリで設定済み（ブラウザで反映確認済み）
