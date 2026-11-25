@@ -113,6 +113,15 @@ a:hover { color: var(--accent); }
 .article { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 36px; }
 .article h1 { font-size: 1.7rem; line-height: 1.5; margin: 0 0 12px; }
 
+.breadcrumb {
+  font-size: .82rem;
+  color: var(--muted);
+  margin: 0 0 18px;
+}
+.breadcrumb a { color: var(--accent-dark); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb span { margin: 0 6px; }
+
 .hero-image {
   display: block;
   width: 100%;
