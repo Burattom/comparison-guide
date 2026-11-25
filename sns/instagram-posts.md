@@ -1,9 +1,10 @@
 # Instagram 投稿文案（@ririachannnn）
 
-> 投稿1（おせち早割）は 2026-11-25 に**おせち料理入り重箱バージョンで再公開**：https://www.instagram.com/p/DgJYFaVyaPM/
-> 旧投稿（250x250／ドットだけの重箱）は削除済み
-> 画像：`assets/osechi-post-1080.png`（1080x1080、黒豆・かまぼこ・だいだい・えび・数の子・昆布巻き・栗・穴子を描き込み）
-> これ以降の投稿画像はすべて 1080x1080（`scripts/make_sns_images.py` で生成）
+> 投稿1（おせち早割）は 2026-11-25 に**広告主提供の本物おせち写真バージョンで再公開**：https://www.instagram.com/p/DgJfmjxyh3K/
+> 旧投稿（イラスト版）は削除済み
+> 画像：`assets/osechi-post-1080.png`（広告主のGoogleドライブ素材 `osechi-real-test.jpg` を正方形トリミングし、早割訴求をオーバーレイ）
+> 素材出典：A8案件詳細の「商品画像素材はこちら」→ 匠本舗 おせち2026 フォルダ（利用許諾あり）
+> 生成スクリプト：`scripts/make_real_osechi.py`
 > プロフィールアイコン：`assets/profile-icon.png`（設定済み）
 > A8サイトID 002 のURLは `https://www.instagram.com/ririachannnn/` に更新済み
 > プロフィールのウェブサイト欄は 2026-11-25 にモバイルアプリで設定済み（ブラウザで反映確認済み）
