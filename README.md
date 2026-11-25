@@ -77,5 +77,8 @@
 
 - 出典：A8.netが配布する広告主公式バナーをネット経由で取得（`scripts/fetch_banners.py` / `fetch_more_banners.py`）
 - 生成：`scripts/make_provider_images.py` で公式バナー＋回線名・種別を合成
-- NURO光／auひかりはA8案件がなく、ロゴの商用利用制限があるため**自作の独自イラスト**を使用
-- 元バナー：`assets/provider-*.jpg` / `gmo-banner.jpg` / `jani-banner.jpg`
+- NURO光／auひかりはA8案件がないため、**各社公式サイトで公開されている画像**を取得して使用（`scripts/fetch_official_images.py` / `make_official_images.py`）
+  - NURO光：公式サイトのキービジュアル（2,880×1,620）
+  - auひかり：au公式「auひかりプラス」キャンペーンバナー（640×640）
+- 元バナー：`assets/provider-*.jpg` / `gmo-banner.jpg` / `jani-banner.jpg` / `official-*.jpg`
+- ※ 公式画像は各社の著作物です。紹介・比較目的での利用にとどめ、権利者からの要請があれば差し替えます
