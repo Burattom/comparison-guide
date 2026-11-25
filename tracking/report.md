@@ -30,6 +30,8 @@ SNS投稿文は `sns/instagram-posts.md` を参照。PR表記・公開アカウ�
 
 公開投稿URLは両プログラムの「広告掲載URL管理」に提出済み。
 
+@ririachannnn のプロフィール「ウェブサイト」に `https://burattom.github.io/osechi-guide/` を設定済み（2026-11-25 確認）。Instagramが `utm_source=ig` を付与するため、今後GA4導入時に流入元を判別可能。
+
 ## 日次記録
 
 | 日付 | インプレッション | クリック | 発生件数 | 発生金額 | CVR | メモ |
