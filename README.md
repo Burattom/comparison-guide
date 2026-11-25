@@ -1,37 +1,39 @@
-# 年末ごちそうガイド（A8.net アフィリエイトブログ）
+# 比較ガイド（A8.net アフィリエイトブログ）
 
-おせち・かにに特化した静的サイト。GitHub Pages で公開します。
+光回線の乗り換え・グッズ買取に特化した静的サイト。GitHub Pages で公開。
 
 **公開URL:** https://burattom.github.io/osechi-guide/
 **リポジトリ:** https://github.com/Burattom/osechi-guide
 **sitemap:** https://burattom.github.io/osechi-guide/sitemap.xml
 
-## SEO / CVR 対策（2026-11-25 実装）
+> 2026-11-25：季節案件（おせち・かに）は撤収し、通年案件へピボットしました。
+> Instagramの投稿・予約もすべて削除済み。
 
-- 全ページに canonical・OGP・Twitter Card を設定
-- 各記事に Article / FAQPage の構造化データ（JSON-LD）を埋め込み
-- `sitemap.xml` / `robots.txt` を設置
-- 各記事に関連記事リンクを追加
-- CTAを「冒頭・中段・末尾」の3箇所に配置し、文言を成果条件に合わせて変更
-- 主要2記事に「目的別の選び方」比較表を追加
+## 構成
 
-`scripts/` に一括変換用スクリプトを置いてあります（`improve.py` → `cta_fix.py` → `check.py` の順で実行）。
+```
+.
+├── index.html                        トップ
+├── articles/docomo-hikari.html       ドコモ光の乗り換え
+├── articles/gmo-hikari.html          光回線比較（GMO光アクセス）
+├── articles/goods-buyback.html       グッズ買取の比較
+├── about.html                        アフィリエイト開示 / ポリシー
+├── tracking/report.md                効果測定ログ
+├── style.css
+└── .github/workflows/deploy.yml
+```
 
-## Google Search Console
+## 稼働中の案件（即時提携）
 
-- プロパティ：`https://burattom.github.io/osechi-guide/`（所有権確認済み・HTMLタグ認証）
-- サイトマップ送信済み（初回取得は未完了のため、Googleが再処理予定）
-- トップ＋6記事のURL検査から「インデックス登録をリクエスト」済み
-- トップの canonical はルートURLに統一
-- 全9記事のURL検査からインデックス登録をリクエスト済み
-
-## Lighthouse 診断結果（2026-11-25）
-
-- Accessibility: 1.00 / Best Practices: 1.00 / SEO: 1.00（失敗項目なし）
+| 案件 | プログラムID | 報酬 |
+|---|---|---|
+| GMOとくとくBB ドコモ光 | s00000000018031 | 9,000〜17,000円 |
+| GMO光アクセス | s00000000018040 | 6,000円 |
+| ジャニーズグッズ買取【ジャニキング】 | s00000016322002 | 買取成立2,500円 |
 
 ## 審査中の案件
 
-下記は提携申請済みで審査中。承認後に広告リンクを取得し、各案件の比較記事を作成して公開する。
+承認後に広告リンクを取得し、記事を追加予定。
 
 | 案件 | プログラムID | 報酬 |
 |---|---|---|
@@ -39,89 +41,20 @@
 | PT・OT・ST WORKER | s00000026401001 | 新規会員登録3,790円 |
 | 街角雨漏り相談所 | s00000024877004 | 新規見積7,000円 |
 
-## Google Analytics 4
+## SEO / 計測
 
-- プロパティ名：`年末ごちそうガイド`（タイムゾーン：日本／通貨：円）
-- 測定ID：`G-FVZHH3RMRT`
-- ウェブストリームID：`16409404040`
-- 全8ページの `<head>` に gtag.js を埋め込み済み（`scripts/add_ga.py` で一括挿入）
+- canonical / OGP / Twitter Card を全ページに設定
+- Article / FAQPage / BreadcrumbList のJSON-LD
+- sitemap.xml / robots.txt を設置、全記事のインデックスをリクエスト済み
+- CTAを冒頭・中段・末尾の3箇所に配置
+- Lighthouse: Accessibility 1.00 / Best Practices 1.00 / SEO 1.00
+- Google Search Console：所有権確認済み
+- GA4：測定ID `G-FVZHH3RMRT`（プロパティ名：比較ガイド）
 
-SNS投稿画像は広告主が提供する商品写真（Googleドライブ素材）を使用：
+## Instagram
 
-- `sns/assets/osechi-real-test.jpg` → `scripts/make_real_osechi.py` → `osechi-post-1080.png`
-- `sns/assets/kani-real-test.jpg` → `scripts/make_real_kani.py` → `kani-post-1080.png`
-- 拡張計測機能（ページビュー／スクロール／離脱クリック）を有効化
-
-※ 自分のBraveブラウザはトラッキングをブロックする場合があるため、リアルタイム表示に自分の訪問が出ないことがあります。通常のブラウザからの流入は最大48時間で反映されます。
-
-## 構成
-
-```
-.
-├── index.html                      トップ
-├── articles/osechi.html            おせち比較記事（匠本舗）
-├── articles/osechi-saitei.html     おせち早割（長尾キーワード）
-├── articles/osechi-kaihou.html     おせち解凍（長尾キーワード）
-├── articles/kani.html              かに比較記事（かに本舗）
-├── articles/kani-ryo.html          かに内容量（長尾キーワード）
-├── articles/kani-kaihou.html       かに解凍（長尾キーワード）
-├── articles/osechi-souba.html      おせち相場（長尾キーワード）
-├── articles/osechi-yoyaku.html     おせち予約（長尾キーワード）
-├── articles/kani-tabekata.html     かに食べ方（長尾キーワード）
-├── about.html                      アフィリエイト開示 / ポリシー
-├── sns/instagram-posts.md          Instagram投稿文案（SNS用リンク）
-├── tracking/report.md              効果測定ログ
-├── style.css
-└── .github/workflows/deploy.yml
-```
-
-記事内のCTAリンクは A8.net の広告リンクに差し替え済みです（`rel="nofollow sponsored"` 付き）。
-
-| 記事 | 対象プログラム | プログラムID | 状態 |
-|---|---|---|---|
-| `articles/osechi.html` | 匠本舗 料亭おせち | `s00000009319002` | 提携完了・リンク反映済み |
-| `articles/kani.html` | かに本舗 | `s00000009319001` | 提携完了・リンク反映済み |
-
-A8.net にはサイトID `003`（年末ごちそうガイド）として登録済みです。
-
-## 公開手順（GitHub Pages）
-
-1. GitHub で新しいリポジトリを作成する（例: `osechi-guide`）。**Public** にすること。
-2. このフォルダの中身をリポジトリのルートとして push する。
-
-   ```powershell
-   cd D:\ssdproject\A8-afiliate
-   git init
-   git add .
-   git commit -m "initial commit"
-   git remote add origin https://github.com/<あなたのユーザー名>/<リポジトリ名>.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. リポジトリの **Settings → Pages → Build and deployment** で、Source を **GitHub Actions** にする。
-4. Actions タブの「Deploy to GitHub Pages」が緑になったら公開完了。
-   公開URLは `https://<ユーザー名>.github.io/<リポジトリ名>/` です。
-
-> 既にリポジトリがある場合は `git init` は不要です。
-
-## A8.net 側の手順（あなたが行う）
-
-1. メディア管理画面 → **登録情報 → サイト情報の登録・修正** を開く
-2. 再認証（ログインID / パスワード）を入力する
-3. 新しいサイト情報を登録する
-   - サイト名：`年末ごちそうガイド`
-   - サイトURL：上記の公開URL
-   - カテゴリ：グルメ・食品 など
-4. **プログラム検索** で下記を探し、提携申請する（どちらも即時提携）
-   - `s00000009319002`（匠本舗 おせち）
-   - `s00000009319001`（かに本舗）
-5. 提携後、**プログラム管理 → 参加中プログラム** から広告リンクを取得し、記事のプレースホルダーを差し替える
-6. 公開後、**広告掲載URL管理** から記事URLを提出する（A8の規約で必須）
-
-差し替え用リンクを私に渡してもらえれば、ファイルへの反映もします。
-
-## 注意点
-
-- 匠本舗 / かに本舗はリスティング広告のNGワードが多数あります。有料広告を出す場合は管理画面の「リスティングNGワード」を必ず確認してください。
-- 成果確定目安は約30日です。
+- アカウント：@ririachannnn
+- 投稿：0件（季節投稿はすべて削除）
+- 自己紹介：光回線の乗り換え＆グッズ買取を比較｜失敗しない選び方を発信👇
+- プロフィールリンク：公開URL
+- アイコン：`sns/assets/profile-icon.png`（`scripts/make_profile_icon.py` で生成）
