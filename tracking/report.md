@@ -6,9 +6,9 @@ A8.net メディア管理画面 → レポート → 期間別（日別）の数
 
 | 略称 | プログラムID | 記事URL |
 |---|---|---|
-| ドコモ光 | s00000000018031 | https://burattom.github.io/osechi-guide/articles/docomo-hikari.html |
-| GMO光アクセス | s00000000018040 | https://burattom.github.io/osechi-guide/articles/gmo-hikari.html |
-| ジャニキング | s00000016322002 | https://burattom.github.io/osechi-guide/articles/goods-buyback.html |
+| ドコモ光 | s00000000018031 | https://burattom.github.io/comparison-guide/articles/docomo-hikari.html |
+| GMO光アクセス | s00000000018040 | https://burattom.github.io/comparison-guide/articles/gmo-hikari.html |
+| ジャニキング | s00000016322002 | https://burattom.github.io/comparison-guide/articles/goods-buyback.html |
 
 ## 日次記録
 

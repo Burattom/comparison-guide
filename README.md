@@ -2,9 +2,9 @@
 
 光回線の乗り換え・グッズ買取に特化した静的サイト。GitHub Pages で公開。
 
-**公開URL:** https://burattom.github.io/osechi-guide/
-**リポジトリ:** https://github.com/Burattom/osechi-guide
-**sitemap:** https://burattom.github.io/osechi-guide/sitemap.xml
+**公開URL:** https://burattom.github.io/comparison-guide/
+**リポジトリ:** https://github.com/Burattom/comparison-guide
+**sitemap:** https://burattom.github.io/comparison-guide/sitemap.xml
 
 > 2026-11-25：季節案件（おせち・かに）は撤収し、通年案件へピボットしました。
 > Instagramの投稿・予約もすべて削除済み。

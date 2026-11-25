@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://burattom.github.io/osechi-guide/sitemap.xml
+Sitemap: https://burattom.github.io/comparison-guide/sitemap.xml
