@@ -18,8 +18,10 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+  font-weight: 500;
   line-height: 1.9;
+  letter-spacing: .015em;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -110,6 +112,7 @@ a:hover { color: var(--teal); text-decoration: underline; }
 .hero h1 {
   margin: 0 0 18px;
   font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+  font-weight: 700;
   line-height: 1.45;
   color: var(--navy);
   letter-spacing: .02em;
@@ -165,7 +168,9 @@ a:hover { color: var(--teal); text-decoration: underline; }
   width: 100%;
   height: 165px;
   object-fit: cover;
+  object-position: top center;
   border-bottom: 1px solid var(--line);
+  background: #eef4f8;
 }
 .card .tag {
   display: inline-block;
@@ -189,7 +194,7 @@ a:hover { color: var(--teal); text-decoration: underline; }
   padding: 40px;
   box-shadow: var(--shadow);
 }
-.article h1 { font-size: 1.6rem; line-height: 1.5; margin: 0 0 12px; color: var(--navy); }
+.article h1 { font-size: 1.6rem; font-weight: 700; line-height: 1.5; margin: 0 0 12px; color: var(--navy); }
 .article .meta { font-size: .8rem; color: var(--muted); margin-bottom: 20px; }
 .article-hero {
   display: block;
@@ -200,6 +205,7 @@ a:hover { color: var(--teal); text-decoration: underline; }
 }
 .article h2 {
   font-size: 1.2rem;
+  font-weight: 700;
   color: var(--navy);
   margin: 38px 0 14px;
   padding-bottom: 8px;
