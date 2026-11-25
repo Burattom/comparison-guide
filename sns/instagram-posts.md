@@ -1,8 +1,8 @@
 # Instagram 投稿文案（@ririachannnn）
 
-> 投稿1（おせち早割）は 2026-11-25 に**高解像度版で再公開**：https://www.instagram.com/p/DgJVGAVyS2q/
-> 旧投稿（低解像度 250x250）は削除済み
-> 画像：`assets/osechi-post-1080.png`（1080x1080、Pillowで描いたオリジナル）
+> 投稿1（おせち早割）は 2026-11-25 に**おせち料理入り重箱バージョンで再公開**：https://www.instagram.com/p/DgJYFaVyaPM/
+> 旧投稿（250x250／ドットだけの重箱）は削除済み
+> 画像：`assets/osechi-post-1080.png`（1080x1080、黒豆・かまぼこ・だいだい・えび・数の子・昆布巻き・栗・穴子を描き込み）
 > これ以降の投稿画像はすべて 1080x1080（`scripts/make_sns_images.py` で生成）
 > プロフィールアイコン：`assets/profile-icon.png`（設定済み）
 > A8サイトID 002 のURLは `https://www.instagram.com/ririachannnn/` に更新済み
