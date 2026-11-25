@@ -70,3 +70,12 @@
 - アイコン：`sns/assets/profile-icon.png`（`scripts/make_profile_icon.py` で生成）
 - 教育投稿画像：`sns/assets/edu-*.png`（`scripts/make_edu_posts.py` で生成）
 - 運用方針：`sns/growth-plan.md`
+
+## 回線別画像
+
+各回線のヒーロー／サムネイルは`assets/{回線}-hero.jpg` / `{回線}-thumb.jpg`に個別設定済み。
+
+- 出典：A8.netが配布する広告主公式バナーをネット経由で取得（`scripts/fetch_banners.py` / `fetch_more_banners.py`）
+- 生成：`scripts/make_provider_images.py` で公式バナー＋回線名・種別を合成
+- NURO光／auひかりはA8案件がなく、ロゴの商用利用制限があるため**自作の独自イラスト**を使用
+- 元バナー：`assets/provider-*.jpg` / `gmo-banner.jpg` / `jani-banner.jpg`
