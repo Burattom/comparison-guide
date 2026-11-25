@@ -221,7 +221,8 @@ def build(a):
 </html>
 '''
 
-for a in ARTICLES:
-    p = pathlib.Path(a["file"])
-    p.write_text(build(a), encoding="utf-8")
-    print("created", p)
+if __name__ == "__main__":
+    for a in ARTICLES:
+        p = pathlib.Path(a["file"])
+        p.write_text(build(a), encoding="utf-8")
+        print("created", p)
