@@ -76,9 +76,13 @@
 - **はてなブログ**：https://hikari-hikaku.hatenablog.com/ （ID：`hikari-hikaku`／PW：`Hikari2026!Hatena#9Q`）
   - 転載記事：https://hikari-hikaku.hatenablog.com/entry/2026/11/26/123450
   - 原稿：`sns/crosspost-note.md`（元記事リンク明記済み）
-- **note**：ID `hikari_hikaku`／PW `Hikari2026!Note#7Kp`。エディタが拡張で開かないため原稿は通常ブラウザで手動投稿
+- **note**：ID `hikari_hikaku`／PW `Hikari2026!Note#7Kp`
+  - 公開記事：https://note.com/hikari_hikaku/n/n43025a9bc290 （#光回線 / #光回線乗り換え）
+  - 原稿：`sns/crosspost-note.md`
 - **Bing Webmaster Tools**：`amatu.riria@gmail.com` でサインイン済み。サイト確認済み（`index.html` の `msvalidate.01` メタタグ）／`sitemap.xml` 送信済み／主要URL送信済み
-- **X**：電話番号認証のためユーザーが作成予定。投稿案は `sns/x-posts.md`
+- **X**：@hikarihikaku（表示名：光回線・買取の比較ガイド／プロフリンク：比較ガイドTOP）
+  - 投稿5件を公開済み（自己紹介・独自回線vs光コラボ・実測速度・工事費・グッズ買取）
+  - 投稿案：`sns/x-posts.md`
 
 ## 回線別画像
 
