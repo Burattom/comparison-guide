@@ -71,6 +71,15 @@
 - 教育投稿画像：`sns/assets/edu-*.png`（`scripts/make_edu_posts.py` で生成）
 - 運用方針：`sns/growth-plan.md`
 
+## 外部メディア
+
+- **はてなブログ**：https://hikari-hikaku.hatenablog.com/ （ID：`hikari-hikaku`／PW：`Hikari2026!Hatena#9Q`）
+  - 転載記事：https://hikari-hikaku.hatenablog.com/entry/2026/11/26/123450
+  - 原稿：`sns/crosspost-note.md`（元記事リンク明記済み）
+- **note**：ID `hikari_hikaku`／PW `Hikari2026!Note#7Kp`。エディタが拡張で開かないため原稿は通常ブラウザで手動投稿
+- **Microsoft アカウント**：`amatu.riria@gmail.com` で作成済み（Bing Webmaster Tools のサインインは手動対応が必要）
+- **X**：電話番号認証のためユーザーが作成予定。投稿案は `sns/x-posts.md`
+
 ## 回線別画像
 
 各回線のヒーロー／サムネイルは`assets/{回線}-hero.jpg` / `{回線}-thumb.jpg`に個別設定済み。
