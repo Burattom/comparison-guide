@@ -44,6 +44,7 @@ A8.net メディア管理画面 → レポート → 期間別（日別）の数
 - **はてな転載記事**：https://hikari-hikaku.hatenablog.com/entry/2026/11/26/123450 を公開（元記事へのリンク明記、テーブル含む本文1,060文字）
 - **note**：https://note.com/hikari_hikaku/n/n43025a9bc290 を公開（本文1,277文字、ハッシュタグ #光回線 / #光回線乗り換え、元記事リンク明記）。未ログインでも閲覧可を確認
 - **X**：@hikarihikaku を作成（ユーザーがSMS認証を完了）。表示名・bio・サイトリンクを設定し、`sns/x-posts.md` の投稿5件を公開済み
+- **A8.net サイト登録**：サイトID 003 を更新（再認証後）。`年末ごちそうガイド` / `https://burattom.github.io/osechi-guide/` → `光回線・グッズ買取の比較ガイド` / `https://burattom.github.io/comparison-guide/`、カテゴリ「インターネットサービス」に変更
 
 ## 改善アクションの判断目安
 

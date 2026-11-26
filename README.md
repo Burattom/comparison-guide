@@ -8,6 +8,7 @@
 
 > 2026-11-25：季節案件（おせち・かに）は撤収し、通年案件へピボットしました。
 > Instagramの投稿・予約もすべて削除済み。
+> 2026-11-26：A8.net サイトID 003 の登録URLを `https://burattom.github.io/comparison-guide/` に更新済み（旧：`osechi-guide`）。
 
 ## 構成
 
