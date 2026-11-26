@@ -35,7 +35,11 @@ A8.net メディア管理画面 → レポート → 期間別（日別）の数
 
 ### 外部露出（2026-11-26 時点）
 - **Microsoft アカウント**：`amatu.riria@gmail.com` で作成完了（長押し認証はユーザーが実施）
-- **Bing Webmaster Tools**：サインインがループ（`MSPPError=-2147178102`）のため未完了。ユーザーの通常ブラウザで手動サインイン待ち
+- **Bing Webmaster Tools**：ユーザーが手動サインイン後、以下完了
+  - サイト `https://burattom.github.io/comparison-guide/` を手動追加（GSCインポートは「サイトが見つかりません」で失敗）
+  - `index.html` に `<meta name="msvalidate.01" content="6264854A119B84CC92DB50E584993472">` を追加して確認済み
+  - `sitemap.xml` を送信（状態：処理中）
+  - 主要11URLを直接送信（トップ＋全9ページ、1件は誤URLのため再送信済み／残クォータ89）
 - **はてなブログ**：https://hikari-hikaku.hatenablog.com/ を開設（無料プラン、公開範囲：すべての人に公開）
 - **はてな転載記事**：https://hikari-hikaku.hatenablog.com/entry/2026/11/26/123450 を公開（元記事へのリンク明記、テーブル含む本文1,060文字）
 - **note**：アカウント `hikari_hikaku` 作成済み。エディタがブラウザ拡張で真っ白になるため、`sns/crosspost-note.md` を通常ブラウザで手動投稿する必要あり
